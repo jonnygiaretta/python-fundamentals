@@ -1,0 +1,10 @@
+frase = str(input('Digite uma Frase : ')).strip().title()
+fraseup = frase.upper()
+contador = fraseup.count('A')
+primeira = (fraseup.find('A') + 1)
+ultima = (fraseup.rfind('A') + 1)
+
+print(f'A Frase Digitada : "{frase}", Possui as Seguintes Caracteristicas : ')
+print(f'A letra "a" Apareceu {contador} na Frase')
+print(f'A Primeira Aparição da Letra "a" na Frase Aconteceu na Posição de Numero : {primeira}')
+print(f'A Ultima Aparição da Letra "a" na Frase Aconteceu na Posição de Numero : {ultima}')
